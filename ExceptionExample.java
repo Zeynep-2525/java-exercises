@@ -4,7 +4,7 @@ public class ExceptionExample {
             int[] numbers = {1, 2, 3};
             System.out.println(numbers[5]);
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Hata yakalandı: " + e.getMessage());
+            System.out.println("Hata yakalandi: " + e.getMessage());
         } finally {
             System.out.println("Program bitti.");
         }
